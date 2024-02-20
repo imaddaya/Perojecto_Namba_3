@@ -11,8 +11,14 @@ h2,h4,p{
 h2{
     text-align: center;
 }
-.eok1.eoa1.eoep1{
-    
+.eok1{
+    display: flex;
+}
+.eoa1{
+    display: flex;
+}
+.eoep1{
+    display: flex;
 }
 
 .img1{
@@ -42,7 +48,6 @@ h2{
 .eoa{
     background-color: red;
 }
-
 
 .eoep{
     background-color: pink;
