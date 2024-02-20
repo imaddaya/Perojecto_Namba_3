@@ -1,6 +1,49 @@
-body{
+body, html {
     height: 100%;
-    margin: 0;
-    font-size: 40px;
-    background-color:blue ;
+    margin: 0 ;
+    font-size: 20px;
+    color: black;
+}
+
+h2,h4,p{
+    margin :0;
+}
+h2{
+    text-align: center;
+}
+.eok1.eoa1.eoep1{
+    
+}
+
+.img1{
+    background-image: url("photos/AI photo 1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p{
+    margin :0;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 70px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    }
+
+.eok{
+    background-color: blue;
+}
+
+.eoa{
+    background-color: red;
+}
+
+
+.eoep{
+    background-color: pink;
 }
