@@ -8,19 +8,45 @@ body, html {
 h2,h4,p{
     margin :0;
 }
+h4{
+    font-size: 35px;
+}
 h2{
     text-align: center;
-}
-.eok1{
-    display: flex;
-}
-.eoa1{
-    display: flex;
-}
-.eoep1{
-    display: flex;
+    padding: 40px;
+    background-color: black;
+    color: aqua;
 }
 
+.pos1 .neg1, p{
+    margin: 40px;
+    padding: 50px;
+    font-size: 30px;
+}
+.pos1{
+    background-image: url("photos/AI photo 2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.neg1{
+    background-image: url("photos/AI photo 5.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 125%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 .img1{
     background-image: url("photos/AI photo 1.png");
     background-attachment: fixed;
