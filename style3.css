@@ -1,5 +1,5 @@
-body{
-    background-color: aqua;
+body, html {
+    background-color: brown;
 }
 .links{
     font-size: 25px ;
